@@ -24,6 +24,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-node@v1
+      - uses: actions/setup-python@v1
+      - run: python set_version.py
       - uses: actions/checkout@v2
       - name: Upload packages
         run: npm publish
