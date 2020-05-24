@@ -25,8 +25,8 @@ jobs:
     steps:
       - uses: actions/setup-node@v1
       - uses: actions/setup-python@v1
-      - run: python set_version.py
       - uses: actions/checkout@v2
+      - run: python set_version.py
       - name: Upload packages
         run: npm publish
         env:
