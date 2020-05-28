@@ -3,9 +3,7 @@
 Installation
 ------------
 
-Install ``django-select2``
-
-.. code-block:: python
+Install ``django-select2``::
 
     python3 -m pip install django-select2
 
