@@ -1,12 +1,12 @@
+|header|
+
 ==============
 Django-Select2
 ==============
 
 |version| |coverage| |license|
 
-This is a `Django`_ integration of `Select2`_.
-
-The app includes Select2 driven Django Widgets.
+Custom autocompelte fields for `Django`_.
 
 Documentation
 -------------
@@ -22,6 +22,7 @@ Documentation available at https://django-select2.readthedocs.io/.
 .. _Select2: https://select2.org/
 .. _autocomplete_fields: https://docs.djangoproject.com/en/stable/ref/contrib/admin/#django.contrib.admin.ModelAdmin.autocomplete_fields
 
+.. |header| image:: https://repository-images.githubusercontent.com/266545281/c6db7d26-9f60-454b-845e-395d45c43fa7
 .. |version| image:: https://img.shields.io/pypi/v/Django-Select2.svg
    :target: https://pypi.python.org/pypi/Django-Select2/
 .. |coverage| image:: https://codecov.io/gh/codingjoe/django-select2/branch/master/graph/badge.svg
