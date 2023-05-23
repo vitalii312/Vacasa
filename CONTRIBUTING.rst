@@ -13,7 +13,7 @@ To install the package and its dependencies for development
 including tests dependencies, please do:
 
     python -m pip install -e .[test]
-    
+
 You may ran the tests via::
 
     python -m pytest
