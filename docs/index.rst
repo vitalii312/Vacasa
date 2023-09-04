@@ -32,8 +32,9 @@ Add ``django_select`` to your URL root configuration:
     ]
 
 
-``django-select2`` requires a cache backend which is **persistent**
-across all application servers..
+The :ref:`Model` -widgets require a **persistent** cache backend across
+all application servers. This is because the widget needs to store
+meta data to be able to fetch the results based on the user input.
 
 **This means that the** :class:`.DummyCache` **backend will not work!**
 
