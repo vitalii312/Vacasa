@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security Policy
+    url: https://github.com/codingjoe/django-select2/security
+    about: Please do not disclose security vulnerabilities via GitHub issues.
+  - name: ✨ Feature Requests
+    url: https://github.com/codingjoe/django-select2/discussions/categories/ideas
+    about: Please use the GitHub Discussions to request new features.
+  - name: 🙋 Questions & Help
+    url: https://github.com/codingjoe/django-select2/discussions/categories/q-a
+    about: Please use the GitHub Discussions to ask questions.
