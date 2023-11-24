@@ -1,0 +1,11 @@
+name: 🙋 Question
+description: Get help from the community.
+body:
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Discussions
+
+        This project uses GitHub Discussions to answer your questions.
+        Please use the [Q&A](https://github.com/codingjoe/django-select2/discussions/categories/q-a) to discuss your idea with the community.
