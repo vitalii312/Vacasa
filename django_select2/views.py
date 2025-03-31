@@ -4,7 +4,6 @@ from django.core.signing import BadSignature
 from django.http import Http404, JsonResponse
 from django.utils.module_loading import import_string
 from django.views.generic.list import BaseListView
-
 from .cache import cache
 from .conf import settings
 
